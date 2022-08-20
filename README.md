@@ -1,4 +1,4 @@
-# Compatitive Programming
+# Competitive Programming
 
 ## Data Structure
 | #   | Name                                                                       | Editorial                                             | 
