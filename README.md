@@ -8,6 +8,9 @@
 
 ## Algorithm
 
-## Others
+## Other Resources
 
 1. [igor's code archive](http://shygypsy.com/tools/)
+2. [tourist code template](https://github.com/the-tourist/algo)
+3. [USACO guide](https://usaco.guide/)
+4. [Geometry debugger](https://github.com/lukakalinovcic/geodeb)
