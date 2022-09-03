@@ -4,4 +4,4 @@ project(acm)
 add_compile_definitions("gsdt")
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(acm main.cpp)
+add_executable(acm main.cpp libs/gsdt_debug.h)
