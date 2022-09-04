@@ -83,6 +83,22 @@ struct Z {
     }
 };
 
+// slow version
+/*
+auto ncr = [](long long n, long long r) {
+    if (r > n)  {
+        return 0LL;
+    }
+    long long up = 1;
+    long long down = 1;
+    for (long long i = 0; i < min(n, r); i++) {
+        up *= n - i;
+        down *= (i + 1);
+    }
+    return up / down;
+};
+ */
+
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
