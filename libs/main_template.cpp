@@ -10,6 +10,7 @@
 #include <algorithm>
 #include <set>
 #include <numeric>
+#include <functional>
 
 
 using namespace std;
