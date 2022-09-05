@@ -1,17 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <cmath>
-#include <unordered_map>
-#include <unordered_set>
-#include <queue>
-#include <stack>
-#include <deque>
-#include <map>
-#include <algorithm>
-#include <set>
-#include <numeric>
-#include <functional>
-#include <cassert>
+#include <bits/stdc++.h>
 
 using namespace std;
 
