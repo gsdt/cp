@@ -77,6 +77,19 @@ string solve() {
 }
 
 int main() {
-    KMP a("ksjdfk");
+    int T;
+    cin >> T;
+    for (int t = 1; t <= T; t++) {
+        cin >> N >> K;
+        A.resize(N);
+        B.resize(N);
+        for (int i = 0; i < N; i++) {
+            cin >> A[i];
+        }
+        for (int i = 0; i < N; i++) {
+            cin >> B[i];
+        }
+        cout << "Case #" << t << ": " << solve() << endl;
+    }
     return 0;
 }
