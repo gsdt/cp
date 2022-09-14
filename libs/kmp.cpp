@@ -25,7 +25,7 @@ public:
         }
     }
 
-    int find_in(const vector<T> &haystack) {
+    int find_first_in(const vector<T> &haystack) {
         int m = needle.size();
         if (m == 0) {
             return 0;
@@ -42,6 +42,24 @@ public:
             }
         }
         return -1;
+    }
+
+    vector<int> find_all_in(const vector<T> &haystack) {
+        vector<int> occurrences;
+        int m = needle.size();
+        // assert(m > 0)
+        for (int i = 0, j = 0; i < (int) haystack.size(); i++) {
+            while (j > 0 && needle[j] != haystack[i]) {
+                j = table[j - 1];
+            }
+            if (needle[j] == haystack[i]) {
+                j++;
+            }
+            if (j == m) {
+                occurrences.push_back(i + 1 - m);
+            }
+        }
+        return occurrences;
     }
 };
 
