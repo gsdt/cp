@@ -33,6 +33,7 @@
 
 cmake-build-debug/
 input.txt
+output.txt
 main.cpp
 
 .DS_Store
