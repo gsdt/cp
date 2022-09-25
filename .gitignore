@@ -32,9 +32,9 @@
 *.app
 
 cmake-build-debug/
-input.txt
-output.txt
+data/
 main.cpp
+combined.cpp
 
 .DS_Store
 .idea
