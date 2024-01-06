@@ -38,3 +38,5 @@ combined.cpp
 
 .DS_Store
 .idea
+
+venv/
